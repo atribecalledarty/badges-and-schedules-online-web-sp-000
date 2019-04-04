@@ -11,3 +11,10 @@ def batch_badge_creator(array)
   end
   batch_array
 end
+
+def assign_rooms(array)
+  counter = 1
+  array.each do |person|
+    
+  end
+end
