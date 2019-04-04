@@ -14,7 +14,7 @@ end
 
 def assign_rooms(array)
   counter = 1
-  array.each do |person|
+  array.collect do |person|
     
   end
 end
