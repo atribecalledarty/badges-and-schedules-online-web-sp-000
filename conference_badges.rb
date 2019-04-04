@@ -19,3 +19,12 @@ def assign_rooms(array)
     "Hello, #{person}! You'll be assigned to room #{counter}!"
   end
 end
+
+def printer(array)
+  batch_badge_creator(array).each do |badge|
+    puts badge
+  end
+  assign_rooms(array).each do |room_assignment|
+    puts room_assignment
+  end
+end
